@@ -46,4 +46,7 @@ def create_app(config_name):
     # configure UploadSet
     configure_uploads(app,photos)
 
+    app.logger.addHandler(logging.StreamHandler(sys.stdout))
+    app.logger.setLevel(logging.ERROR)
+
     return app
