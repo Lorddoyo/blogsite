@@ -24,7 +24,7 @@ This is an online platform where a user can write his own blogs, read blogs from
 * On your terminal run `chmod a+x start.py`
 * On your terminal run `./start.py`
 * Access the live site using the local host provided
-* Or access the live website by clicking on this url
+* Or access the live website by clicking on this url https://fuckwaah.herokuapp.com/
 
 ## Known Bugs
 No Bugs
